@@ -54,9 +54,16 @@ class HomePage extends StatelessWidget {
             ),),
           ),
           ElevatedButton(onPressed: (){}, 
-          child: Text("data"),
+          child: Text("Download Resume",
+          style: TextStyle(
+            fontWeight: FontWeight.w500),
+            ),
           style: ElevatedButton.styleFrom(
-            side : BorderSide(width: 2)
+            backgroundColor: Color(0xFFFF6464),
+            foregroundColor: Colors.white,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(2)
+              )
           ),)
         ],
       ),
